@@ -1,0 +1,45 @@
+nav > ul > li {
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+nav li > a{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    margin-top: 80%;
+}
+
+main header{
+    font-size: large;
+    margin-left: 30px;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+/* main > article > figure > figcaption{
+    margin-left: 10px;
+    text-shadow: 1px 1px 1px gray;
+    font-family: 'Courier New', Courier, monospace
+} */
+
+main figure > figcaption{
+    margin-left: 10px;
+    text-shadow: 1px 1px 1px gray;
+    font-family: 'Courier New', Courier, monospace
+}
+
+main section{
+    margin: 30px;
+    
+}
+
+body article > footer{
+    margin: 0px;
+}

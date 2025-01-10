@@ -1,0 +1,15 @@
+/* label > input{
+    display: block;
+    margin-bottom:10px;
+    border-radius: 5px;
+} */
+
+#name,#email{
+    display: block;
+    margin-bottom:10px;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+}

@@ -1,0 +1,98 @@
+<!-- fieldset tag-> for a field type slection input -->
+<!-- legend tag-> to give a headline in that fieldset tag -->
+
+<!-- input name er vitor same name dile ekta select korte parbo sudhu -->
+
+<!-- textarea -> this tag in form to get a text box to write -->
+
+<!-- input type ="reset" -> input type reset for reseting the values in the form -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css/Form.css">  
+    <link rel="stylesheet" href="style.css/table.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+                <li><a href="video.html" target="_blank">Video</a></li>
+                <li><a href="form.html" target="_blank">Form</a></li>
+                <li><a href="table.html" target="_blank">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <header>
+            <h2>Form fill up</h2>
+        </header>
+        <section>
+            <form>
+
+                <label for="name">Name:
+                    <input id="name" type="text" placeholder="Your name">
+                </label>
+
+                <label for="email">Email:
+                    <input id="email" type="email" placeholder="Your Email">
+                </label>
+
+                <fieldset>
+
+                    <legend>Pick one</legend>
+
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy"> Chitoy
+                    </label>
+
+                    <label for="vapapitha">
+                        <input type="radio" name="pitha" id="vapapitha"> Vapapitha
+                    </label>
+                    
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri"> Puri
+                    </label>   
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pick one or more</legend>
+
+                    <label for="sorisa">
+                        <input type="checkbox" name="vorta" id="sorisa"> Sorisa
+                    </label>
+
+                    <label for="shutki">
+                        <input type="checkbox" name="vorta" id="shutki"> Shutki
+                    </label>
+
+                    <label for="chili">
+                        <input type="checkbox" name="vorta" id="chili"> Chili
+                    </label>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="50" rows="5"></textarea>
+                </fieldset>
+                
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+
+            </form>
+        </section>
+    </main>
+
+    
+    
+</body>
+</html>

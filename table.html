@@ -1,0 +1,99 @@
+<!-- "<table>"-> table tag er vitor er table er data and stuffs -->
+
+<!-- table head -> first row in table  -->
+ <!--"th"-> table head -->
+
+<!-- baki ta body -->
+<!--"tbody"-> table body  -->
+
+<!-- cell/cell -> tbale er data gulo k cell bole -->
+
+<!-- "tfoot"-> table foot -->
+
+<!-- "tr"-> table row. table body (tbody) r vitor thakbe eta-->
+
+<!-- "td"-> table data. table row (tr) er vitor thakbe eta -->
+
+<!-- "td*4" -> dile 4 ta td banay dibe code -->
+
+<!-- "th" -> th for data in thead  -->
+
+<!-- "border-collapse" -> for removing border line within the datas -->
+
+<!-- "colspan" -> ei attribute in td to make a data fit into desired columns -->
+ 
+<!-- "<caption>" ->add this to add caption before a table -->
+
+<!--"li*4>a" -> to add four li with ankor tag at once -->
+
+<!-- "display:flex"-> works an display inline -->
+
+<!-- "list-style" -> for changing list style -->
+
+<!-- "nav li" -> mmajhe ul use na korle ">" 
+ use kora jabe na--> 
+
+<!-- "text-decoration:" ->ankor er oo text deco change kora jae -->
+
+<!--":hover{}" -> to change stuff if i hover over that --> 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css/table.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+                <li><a href="video.html" target="_blank">Video</a></li>
+                <li><a href="form.html" target="_blank">Form</a></li>
+                <li><a href="table.html" target="_blank">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>html table</h1>
+    
+    <table>
+        <caption>Employee Salary</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Apple</td>
+                <td>$1200</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Employee: 4</td>
+            </tr>
+
+        </tfoot>
+    </table>    
+</body>
+</html>
